@@ -1,0 +1,13 @@
+*.gem
+.bundle
+.ruby-version
+.jekyll-cache
+.sass-cache
+_site
+Gemfile.lock
+node_modules
+vendor
+
+## Ide files
+.idea
+.vscode
