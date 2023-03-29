@@ -3,9 +3,9 @@
 
 # Site Settings
 locale          : "en-US"
-title           : "Králík"
+title           : "oliblog"
 title_separator : "-"
-subtitle        : "Na paprice nebo na smetaně ?"
+subtitle        : "o králících a lidech"
 name            : "Your Name"
 description     : "An amazing website."
 url             : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -19,10 +19,10 @@ words_per_minute: 200
 
 # Site Author
 author:
-  name    : "Olga Králíkofilní"
+  name    : "Olga Cinková"
   avatar  : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio     : "I am an **amazing** person."
-  location: "Somewhere"
+  location: 
   email   :
   links:
     - label: "Email"
@@ -39,10 +39,10 @@ author:
       url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/olgacinkova"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/kreslimnejenkraliky/"
 
 # Site Footer
 footer:
