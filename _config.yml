@@ -7,7 +7,7 @@ title           : "oliblog"
 title_separator : "-"
 subtitle        : "o králících a lidech"
 name            : "Your Name"
-description     : "An amazing website."
+#description     : "An amazing website."
 url             : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl         : # the subpath of your site, e.g. "/blog"
 repository      : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -21,7 +21,7 @@ words_per_minute: 200
 author:
   name    : "Olga Cinková"
   avatar  : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio     : "I am an **amazing** person."
+  #bio     : "I am an **amazing** person."
   location: 
   email   :
   links:
