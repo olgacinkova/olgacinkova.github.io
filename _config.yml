@@ -3,11 +3,11 @@
 
 # Site Settings
 locale          : "en-US"
-title           : "Králík"
+title           : "oliblog"
 title_separator : "-"
-subtitle        : "Na paprice nebo na smetaně ?"
+subtitle        : "o králících a lidech"
 name            : "Your Name"
-description     : "An amazing website."
+#description     : "An amazing website."
 url             : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl         : # the subpath of your site, e.g. "/blog"
 repository      : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -19,52 +19,52 @@ words_per_minute: 200
 
 # Site Author
 author:
-  name    : "Olga Králíkofilní"
+  name    : "Olga Cinková"
   avatar  : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio     : "I am an **amazing** person."
-  location: "Somewhere"
+  #bio     : "I am an **amazing** person."
+  location: 
   email   :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      url: "mailto:cinkovaolga@gmail.com"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://your-website.com"
+   # - label: "Twitter"
+   #   icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+    #  url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/olgacinkova"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/kreslimnejenkraliky/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+      url: "https://github.com/olgacinkova"
+    #- label: "GitLab"
+    #  icon: "fab fa-fw fa-gitlab"
+    #  url:
+    #- label: "Bitbucket"
+    #  icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/kreslimnejenkraliky/"
 
 # Všechno pod touhle čarou upravuj jen když víš co děláš
 #######################################################################################
