@@ -5,7 +5,7 @@
 locale          : "en-US"
 title           : "Olgasmus"
 title_separator : "-"
-subtitle        : "o králících a lidech"
+subtitle        : "O králících a lidech"
 name            : "Your Name"
 #description     : "An amazing website."
 url             : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -21,27 +21,18 @@ words_per_minute: 200
 author:
   name    : "Olga Cinková"
   avatar  : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  #bio     : "I am an **amazing** person."
+  bio     : "Bambusákova holka a matfyzačka"
   location: 
   email   :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "/assets/graphics/icons/rabbit-email.svg"
       url: "mailto:cinkovaolga@gmail.com"
-    #- label: "Website"
-    #  icon: "fas fa-fw fa-link"
-    #  url: "https://your-website.com"
-   # - label: "Twitter"
-   #   icon: "fab fa-fw fa-twitter-square"
-    #  url: "https://twitter.com/"
-    #- label: "Facebook"
-    #  icon: "fab fa-fw fa-facebook-square"
-    #  url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "/assets/graphics/icons/rabbit-github.svg"
       url: "https://github.com/olgacinkova"
     - label: "Instagram"
-      icon: "assets/images/rabbit-instagram.png"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
       url: "https://www.instagram.com/kreslimnejenkraliky/"
 
 # Site Footer
