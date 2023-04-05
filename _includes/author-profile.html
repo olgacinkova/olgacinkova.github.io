@@ -30,16 +30,21 @@
         </li>
       {% endif %}
 
-        {% for link in author.links %}
-          {% if link.label and link.url %}
-            <li>
-							<a href="{{ link.url }}" rel="nofollow noopener noreferrer me" {% if link.url contains 'http' -%} itemprop="sameAs"{%- endif -%}>
+				{% for link in author.links %}
+					{% if link.label and link.url %}
+						<li>
+							<a href="{{- link.url -}}" rel="nofollow noopener noreferrer me"
+								{%- if link.url contains 'http' %} itemprop="sameAs"{%- endif -%}>
 								<img src="{{- link.icon | relative_url -}}" alt="{{- link.label -}}" class="rabbit-icon">
 								<span class="label">{{- link.label -}}</span>
 							</a>
 						</li>
-          {% endif %}
-        {% endfor %}
-    </ul>
-  </div>
+					{% endif %}
+				{% endfor %}
+		</ul>
+
+		<img src="/assets/graphics/rabbits/rabbit-deco-pink.svg" class="rabbit-sidebar">
+
+	</div>
 </div>
+
