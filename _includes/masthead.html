@@ -14,10 +14,13 @@
 	<img src="/assets/graphics/rabbits/farleft-rabbit.svg" class="header-rabbit">
 	<img src="/assets/graphics/rabbits/left-rabbit.svg" class="header-rabbit">
 	<img src="/assets/graphics/rabbits/grey-rabbit.svg" class="header-rabbit">
+	<img src="/assets/graphics/rabbits/middle-rabbits.svg" class="header-rabbit">
+	<img src="/assets/graphics/rabbits/middleright-rabbits.svg" class="header-rabbit">
+	<img src="/assets/graphics/rabbits/right-rabbits.svg" class="header-rabbit">
 	<ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+		      <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
