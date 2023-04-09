@@ -13,4 +13,21 @@
 .header-rabbit {
 	max-height: 3em;
 	width: auto;
+	flex: content;
+	flex-basis: auto;
+}
+
+.vybeh {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 70%;
+	gap: 0 auto;
+}
+
+.home-rabbit {
+	max-height: 12em;
+	width: auto;
+	float: right;
 }
