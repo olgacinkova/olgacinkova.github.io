@@ -20,8 +20,8 @@ words_per_minute: 200
 author:
   name    : "Olga Cinková"
   avatar  : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio     : "Bambusákova holka a matfyzačka"
-  location: Lokace
+  bio     : #
+  location: #Lokace
   email   : email
   links:
     - label: "Email"
