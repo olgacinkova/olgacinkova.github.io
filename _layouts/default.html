@@ -4,8 +4,7 @@
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   {% include head.html %}
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include skip-links.html %}
+  <body class="layout--{{- page.layout | default: layout.layout -}}{%- if page.classes or layout.classes -%}{{- page.classes | default: layout.classes | join: ' ' | prepend: ' ' -}}{%- endif -%}">
     {% include masthead.html %}
     <div class="initial-content">
       {{ content }}
