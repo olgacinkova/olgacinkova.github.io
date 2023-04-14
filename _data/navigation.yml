@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Comfy lobster"
-    url: https://jc.ggu.cz/
   - title: "About"
     url: "/about/"
   # - title: "Sample Posts"
