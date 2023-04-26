@@ -59,7 +59,7 @@ footer:
 # Všechno pod touhle čarou upravuj jen když víš co děláš
 #######################################################################################
 
-minimal_mistakes_skin : "dirt"
+minimal_mistakes_skin : "olga"
 
 exclude:
   - "vendor"
