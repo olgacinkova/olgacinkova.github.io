@@ -1,8 +1,9 @@
 ---
 layout: single
 author_profile: true
-permalink: /about/
+permalink: /o-mne/
 ---
+
 Mám králíka. Je mu deset, rádi spolu chodíme na zahradu.
 Kromě králíka mám taky šicí stroj.
 Nejradši šiju pro ostatní.
