@@ -1,6 +1,7 @@
 /* ==========================================================================
    SINGLE PAGE/POST
-   ========================================================================== */
+   ==========================================================================
+*/
 
 #main {
   @include clearfix;
@@ -27,7 +28,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .initial-content,
@@ -39,12 +40,12 @@ body {
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    //padding-right: calc($right-sidebar-width-narrow / 2);
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    //padding-right: calc($right-sidebar-width / 2);
   }
 
   .page__inner-wrap {
