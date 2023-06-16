@@ -16,26 +16,20 @@ logo            : # path of logo image to display in the masthead, e.g. "/assets
 masthead_title  : # overrides the website title displayed in the masthead, use " " for no title
 words_per_minute: 150
 
-# Site Author
-author:
-  name    : "Olga Cinková"
-  avatar  : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio     : #
-  location: #Lokace
-  email   : email
-  links:
-    - label: "Email"
-      icon: "/assets/graphics/icons/rabbit-email.svg"
-      url: "mailto:cinkovaolga@gmail.com"
-    - label: "GitHub"
-      icon: "/assets/graphics/icons/rabbit-github.svg"
-      url: "https://github.com/olgacinkova"
-    - label: "Instagram"
-      icon: "assets/graphics/icons/rabbit-instagram.svg"
-      url: "https://www.instagram.com/kreslimnejenkraliky/"
-    - label: "Atom feed"
-      icon: "assets/graphics/icons/rabbit-instagram.svg"
-      url: "/feed.xml"
+# sidebar
+links:
+  - label: "Email"
+    icon: "/assets/graphics/icons/rabbit-email.svg"
+    url: "mailto:cinkovaolga@gmail.com"
+  - label: "GitHub"
+    icon: "/assets/graphics/icons/rabbit-github.svg"
+    url: "https://github.com/olgacinkova"
+  - label: "Instagram"
+    icon: "assets/graphics/icons/rabbit-instagram.svg"
+    url: "https://www.instagram.com/kreslimnejenkraliky/"
+  - label: "Atom feed"
+    icon: "assets/graphics/icons/rabbit-instagram.svg"
+    url: "/feed.xml"
 
 
 # Všechno pod touhle čarou upravuj jen když víš co děláš
