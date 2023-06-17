@@ -17,18 +17,32 @@ words_per_minute: 120
 
 # sidebar
 links:
-  - label: "Email"
-    icon: "/assets/graphics/icons/rabbit-email.svg"
-    url: "mailto:cinkovaolga@gmail.com"
-  - label: "GitHub"
-    icon: "/assets/graphics/icons/rabbit-github.svg"
-    url: "https://github.com/olgacinkova"
-  - label: "Instagram"
-    icon: "assets/graphics/icons/rabbit-instagram.svg"
-    url: "https://www.instagram.com/kreslimnejenkraliky/"
-  - label: "Atom feed"
-    icon: "assets/graphics/icons/rabbit-instagram.svg"
-    url: "/feed.xml"
+  - group: "Kontakty"
+    links:
+    - label: "Email"
+      icon: "/assets/graphics/icons/rabbit-email.svg"
+      url: "mailto:cinkovaolga@gmail.com"
+    - label: "GitHub"
+      icon: "/assets/graphics/icons/rabbit-github.svg"
+      url: "https://github.com/olgacinkova"
+    - label: "Instagram"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "https://www.instagram.com/kreslimnejenkraliky/"
+    - label: "Atom feed"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "/feed.xml"
+  - group: "Odkazy"
+    links:
+    - label: "BlackBlog"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "https://blackblog.cz/"
+    - label: "Lyricall"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "https://lyricall.cz/"
+    - label: "Meziklasí"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "https://www.meziklasi.cz/"
+
 
 
 # Všechno pod touhle čarou upravuj jen když víš co děláš
