@@ -13,17 +13,12 @@ baseurl         : ""
 repository      : "https://github.com/olgacinkova/olgacinkova"
 teaser          : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo            : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title  : # overrides the website title displayed in the masthead, use " " for no title
-words_per_minute: 200
+words_per_minute: 120
 
-# Site Author
-author:
-  name    : "Olga Cinková"
-  avatar  : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio     : #
-  location: #Lokace
-  email   : email
-  links:
+# sidebar
+links:
+  - group: "Kontakty"
+    links:
     - label: "Email"
       icon: "/assets/graphics/icons/rabbit-email.svg"
       url: "mailto:cinkovaolga@gmail.com"
@@ -33,28 +28,22 @@ author:
     - label: "Instagram"
       icon: "assets/graphics/icons/rabbit-instagram.svg"
       url: "https://www.instagram.com/kreslimnejenkraliky/"
+    - label: "Atom feed"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "/feed.xml"
+  - group: "Odkazy"
+    links:
+    - label: "BlackBlog"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "https://blackblog.cz/"
+    - label: "Lyricall"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "https://lyricall.cz/"
+    - label: "Meziklasí"
+      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      url: "https://www.meziklasi.cz/"
 
-# Site Footer
-footer:
-  links:
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-      # url:
-    #- label: "Facebook"
-    #  icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/olgacinkova"
-    #- label: "GitLab"
-    #  icon: "fab fa-fw fa-gitlab"
-    #  url:
-    #- label: "Bitbucket"
-    #  icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/kreslimnejenkraliky/"
+
 
 # Všechno pod touhle čarou upravuj jen když víš co děláš
 #######################################################################################
@@ -71,10 +60,8 @@ exclude:
   - "README.md"
   - "makefile"
 
-
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -82,7 +69,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -95,19 +81,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -120,7 +103,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:

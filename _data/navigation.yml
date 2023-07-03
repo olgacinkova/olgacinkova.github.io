@@ -2,9 +2,3 @@
 main:
   - title: "O mně"
     url: "/o-mne/"
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/

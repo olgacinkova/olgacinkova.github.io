@@ -3,25 +3,31 @@ title: "Recept na šťastného králíka"
 category: Králíci
 ---
 
-- prohlídky doma i u veterináře: [Video](https://youtu.be/1QX8OXwRC00)
+- **prohlídky doma i u veterináře:** [Video](https://youtu.be/1QX8OXwRC00)
     - zuby
     - stříhat drápky doma nebo u veterináře
     - u starších králíků kontrolovat čistotu
     - nikdy nestříhat chlupy na packách kvůli riziku otlačenin
     - pokud má králík rýmu, vzít k veterináři - může to být od zubů
-- jedovaté rostliny: nenechávat v blízkosti králíka ani na zahradě, pokud tam chodí
-- mrkev a věci ze zahrady
+- **jedovaté rostliny: nenechávat v blízkosti králíka ani na zahradě, pokud tam chodí**
+- **mrkev a věci ze zahrady**
     - mrkev nedávat rovnou z ledničky, není třeba loupat, nať mají taky rádi (pozor na plíseň atd., pokud ze supermarketu)
     - pokud nejsou rostliny z vlastní zahrady, radši umýt před podáváním
+<<<<<<< HEAD
 - pamlsky
     - [Gimbi snack plus] (https://www.petcenter.cz/gimbi-snack-plus-kulicky-mix-50g/)
+=======
+- **pamlsky**
+    - Gimbi snack plus
+>>>>>>> 24dfe34d0d6c6d82c86e4034da65258d70efb18b
     - nepřehánět to
     - ne moc cukru - vyhýbat se rozinkám a banánům (přestože to lidi králíkům hodně dávají a jim to chutná kvůli cukru, není to nic, co by králík normálně v přírodě konzumoval a je to příliš sladké)
     - pokud něco sladkého, radši jablka
     - nikdy ne exotické ovoce
     - nežerou citrusy
-- kulička na pamlsky a jiné hračky
+- **kulička na pamlsky a jiné hračky**
     - nehrají si jako kočky, protože nejsou predátoři
+<<<<<<< HEAD
     - [míč na pamlsky z Petcentra] (https://www.petcenter.cz/hracka-ferplast-mic-na-pamlsky-pro-hlodavce/)
 - prostor
 - možnosti jít ven
@@ -59,4 +65,12 @@ category: Králíci
             - zatlačit stříkačkou co nejvíc do koutku tlamky (je tam taková "díra" mezi zuby), pak bude nucen polykat
             - nikdy netlačit stříkačku do krku - nechceme králíka udusit
     - králíkovi dál k dispozici čerstvou vodu a seno, i když zrovna nechce žrát
+=======
+    - míč na pamlsky z Petcentra
+- **prostor**
+    - možnosti jít ven
+        - zahrada
+        - vodítko
+    - aby nebyl sám
+>>>>>>> 24dfe34d0d6c6d82c86e4034da65258d70efb18b
 
