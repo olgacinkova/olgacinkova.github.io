@@ -13,13 +13,8 @@ category: Králíci
 - **mrkev a věci ze zahrady**
     - mrkev nedávat rovnou z ledničky, není třeba loupat, nať mají taky rádi (pozor na plíseň atd., pokud ze supermarketu)
     - pokud nejsou rostliny z vlastní zahrady, radši umýt před podáváním
-<<<<<<< HEAD
-- pamlsky
-    - [Gimbi snack plus] (https://www.petcenter.cz/gimbi-snack-plus-kulicky-mix-50g/)
-=======
 - **pamlsky**
-    - Gimbi snack plus
->>>>>>> 24dfe34d0d6c6d82c86e4034da65258d70efb18b
+    - [Gimbi snack plus](https://www.petcenter.cz/gimbi-snack-plus-kulicky-mix-50g/)
     - nepřehánět to
     - ne moc cukru - vyhýbat se rozinkám a banánům (přestože to lidi králíkům hodně dávají a jim to chutná kvůli cukru, není to nic, co by králík normálně v přírodě konzumoval a je to příliš sladké)
     - pokud něco sladkého, radši jablka
@@ -27,12 +22,11 @@ category: Králíci
     - nežerou citrusy
 - **kulička na pamlsky a jiné hračky**
     - nehrají si jako kočky, protože nejsou predátoři
-<<<<<<< HEAD
-    - [míč na pamlsky z Petcentra] (https://www.petcenter.cz/hracka-ferplast-mic-na-pamlsky-pro-hlodavce/)
-- prostor
-- možnosti jít ven
+    - [míč na pamlsky z Petcentra](https://www.petcenter.cz/hracka-ferplast-mic-na-pamlsky-pro-hlodavce/)
+- **možnosti jít ven**
     - zahrada
-    - vodítko (všichni moji králíci používali [tohle] (https://www.ukralicka.cz/postroj-s-voditkem-pro-kralika-25-44-1-cm-1-25-m/?variantId=529&gclid=CjwKCAjwpuajBhBpEiwA_ZtfhYExZI8F1kHHfxhyRLGD5yP6_eexHsx1fUBSkrdpwHs9SnoZt2GpYRoCoDMQAvD_BwE))
+    - vodítko (všichni moji králíci používali [tohle](https://www.ukralicka.cz/postroj-s-voditkem-pro-kralika-25-44-1-cm-1-25-m/?variantId=529&gclid=CjwKCAjwpuajBhBpEiwA_ZtfhYExZI8F1kHHfxhyRLGD5yP6_eexHsx1fUBSkrdpwHs9SnoZt2GpYRoCoDMQAvD_BwE))
+- **aby nebyl sám**
 
 ## troubleshooting
 - výtok z oka
@@ -45,7 +39,7 @@ category: Králíci
     - radši jít k veterináři - pravděpodobně předepíše lokální antibiotika ve formě kapek (např. Pamycon)
 - nepovedlo se správně ostříhat drápky, drápek krvácí
     - následek přestřihnutí cévky v drápku
-    - krvácí hodně, proto mít vždy po ruce [Gelaspon] (https://www.benu.cz/surgispon-standard-8x5x1cm-10ks?utm_campaign=freelistings&utm_medium=organic&utm_source=google&utm_term=Surgispon+Standard+8x5x1cm+10ks&gclid=CjwKCAjwpuajBhBpEiwA_Ztfhaa8CsKRMgRvuHVO10BTvM9uQ2Fa5EYBAmkyMRXofP-GLzvLkkuYTBoCgzcQAvD_BwE) (taková náplasťová houbička - prodává se normálně pro lidi), který se přiloží na ránu
+    - krvácí hodně, proto mít vždy po ruce [Gelaspon](https://www.benu.cz/surgispon-standard-8x5x1cm-10ks?utm_campaign=freelistings&utm_medium=organic&utm_source=google&utm_term=Surgispon+Standard+8x5x1cm+10ks&gclid=CjwKCAjwpuajBhBpEiwA_Ztfhaa8CsKRMgRvuHVO10BTvM9uQ2Fa5EYBAmkyMRXofP-GLzvLkkuYTBoCgzcQAvD_BwE) (taková náplasťová houbička - prodává se normálně pro lidi), který se přiloží na ránu
     - prevence: při stříhání drápky prosvěcovat, aby byla vidět cévka
     - pokud se děje opakovaně, nechat radši stříhat drápky veterináře
 - drápek se "svlékl": při stříhání drápku se odloupla vrchní vrstva drápku a zůstal po ní jen malý křehký drápek s cévkou uvnitř
@@ -65,12 +59,3 @@ category: Králíci
             - zatlačit stříkačkou co nejvíc do koutku tlamky (je tam taková "díra" mezi zuby), pak bude nucen polykat
             - nikdy netlačit stříkačku do krku - nechceme králíka udusit
     - králíkovi dál k dispozici čerstvou vodu a seno, i když zrovna nechce žrát
-=======
-    - míč na pamlsky z Petcentra
-- **prostor**
-    - možnosti jít ven
-        - zahrada
-        - vodítko
-    - aby nebyl sám
->>>>>>> 24dfe34d0d6c6d82c86e4034da65258d70efb18b
-
