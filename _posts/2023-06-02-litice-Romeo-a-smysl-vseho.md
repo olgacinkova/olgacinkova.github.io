@@ -1,6 +1,6 @@
 ---
 title: "Lítice, Romeo a smysl všeho"
-category: Králíci
+category: Úvahy
 ---
 
 ### esej o románu Markéta Lazarová
