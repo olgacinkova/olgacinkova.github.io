@@ -1,17 +1,17 @@
 ---
 layout: home
 author_profile: true
-peramlink: /feed/
+peramlink: /new/
 ---
 
-<h3 class="archive__subtitle">Nedávné příspěvky</h3>
+[[Domovská stránka](/)]
 
+<h3 class="archive__subtitle">Nedávné příspěvky</h3>
 {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
   {% assign posts = site.posts %}
 {% endif %}
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
