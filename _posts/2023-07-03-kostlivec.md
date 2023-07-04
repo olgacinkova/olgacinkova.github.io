@@ -2,10 +2,6 @@
 title: "Kostlivec"
 category: Šití
 gallery:
-  - url: /assets/images/kostlivec/kostlivec-2.JPG
-    image_path: /assets/images/kostlivec/kostlivec-2.JPG
-    alt: S popelnicí
-    title: S popelnicí
   - url: /assets/images/kostlivec/kostlivec-4.JPG
     image_path: /assets/images/kostlivec/kostlivec-4.JPG
     alt: Zepředu bez hlavy
@@ -26,6 +22,10 @@ gallery:
     image_path: /assets/images/kostlivec/kostlivec-9.JPG
     alt: Záda
     title: Záda
+  - url: /assets/images/kostlivec/kostlivec-2.JPG
+    image_path: /assets/images/kostlivec/kostlivec-2.JPG
+    alt: S popelnicí
+    title: S popelnicí
 
 ---
 
