@@ -1,0 +1,25 @@
+{% assign document = post | default: page %}
+<p class="page__meta" style="margin-top: 0;">
+		{% assign date = document.date %}
+		<span class="page__meta-date">
+			{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+			<time datetime="{{ date | date_to_xmlschema }}">
+				{{- date | date: date_format -}}
+			</time>
+		</span>
+	<span class="page__meta-sep"></span>
+	{% if document.read_time %}
+		{% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %}
+		{% assign words = document.content | strip_html | number_of_words %}
+		{% assign mins = words | divided_by: words_per_minute | plus: 1 %}
+		<span class="page__meta-readtime">
+			{% if words < words_per_minute -%}
+				čtení na méně než 1 minutu
+			{%- elsif words == words_per_minute -%}
+				čtení na 1 minutu
+			{%- else -%}
+				čtení na {{ mins }} {% if mins >= 2 and mins <= 4 -%}minuty{%- else -%}minut{%- endif -%}
+			{%- endif %}
+		</span>
+	{% endif %}
+</p>
