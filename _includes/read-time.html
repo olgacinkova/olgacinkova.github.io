@@ -1,8 +1,10 @@
 {% assign document = post | default: page %}
 <p class="page__meta" style="margin-top: 0;">
 	{% assign date = document.date %}
-	<span class="page__meta-date">
-		{% assign date_format = site.date_format | default: "%-d. %-m. %Y" %}
+	<span class="page__meta_reading-time"><b>{{- post.category -}}</b></span>
+	<span class="page__meta-sep"></span>
+	<span class="page__meta-date"><b>
+		{%- assign date_format = site.date_format | default: "%-d. %-m. %Y" -%}
 		<time datetime="{{ date | date_to_xmlschema }}">
 			Publikováno {{ date | date: date_format
 				| replace: "January", "Leden"
@@ -19,18 +21,20 @@
 				| replace: "December", "Prosinec"
 			-}}
 		</time>
+		</b>
 	</span>
 	<span class="page__meta-sep"></span>
 	{% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %}
 	{% assign words = document.content | strip_html | number_of_words %}
 	{% assign mins = words | divided_by: words_per_minute | plus: 1 %}
-	<span class="page__meta-readtime">
-		{% if words < words_per_minute -%}
-			Čtení na méně než 1 minutu
-		{%- elsif words == words_per_minute -%}
-			Čtení na 1 minutu
-		{%- else -%}
-			Čtení na {{ mins }} {% if mins >= 2 and mins <= 4 -%}minuty{%- else -%}minut{%- endif -%}
-		{%- endif %}
+	<span class="page__meta-readtime"><b>
+		{%- if words < words_per_minute -%}
+				Čtení na méně než 1 minutu
+			{%- elsif words == words_per_minute -%}
+				Čtení na 1 minutu
+			{%- else -%}
+				Čtení na {{ mins }} {% if mins >= 2 and mins <= 4 -%}minuty{%- else -%}minut{%- endif -%}
+			{%- endif %}
+		</b>
 	</span>
 </p>

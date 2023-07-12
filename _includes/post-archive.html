@@ -1,13 +1,14 @@
-{% assign sorted_categories = site.categories | sort %}
-{% for category in sorted_categories %}
-<div id="{{ category | first | downcase }}"><h2 class="archive__subtitle">{{ category | first }}</h2></div>
-	{%- assign sorted_posts = category.last | sort: "date" | reverse -%}
+{%- for post in site.posts -%}
+	{%- assign current_date = post.date | date: "%Y" -%}
+	{%- if current_date != last_date -%}
+		{%- if date -%}<div class="spacer"></div>{%- endif -%}
+		<h3 class="archive__subtitle">{{- current_date -}}</h3>
+		{%- assign last_date = current_date -%}
+	{%- endif -%}
 	<ul>
-		{%- for post in sorted_posts -%}
 		<li>
 			<b><a href="{{- post.url -}}">{{- post.title -}}</a></b>
 			{% include read-time.html -%}
 		</li>
-		{%- endfor -%}
 	</ul>
-{%- endfor -%}
+{% endfor %}
