@@ -1,10 +1,11 @@
 ---
 layout: home
 author_profile: true
-peramlink: /new/
+peramlink: /timeline/
 ---
 
-[[Domovská stránka](/)]
+[Kategorie](/) / **Timeline** / [Přehled](/prehled)
+
 
 <h3 class="archive__subtitle">Nedávné příspěvky</h3>
 {% if paginator %}
