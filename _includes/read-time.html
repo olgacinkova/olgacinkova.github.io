@@ -1,7 +1,7 @@
 {% assign document = post | default: page %}
 <p class="page__meta" style="margin-top: 0;">
 	{% assign date = document.date %}
-	<span class="page__meta_reading-time"><b>{{- post.category -}}</b></span>
+	<span class="page__meta_reading-time"><b>{{- post.category | default: document.category -}}</b></span>
 	<span class="page__meta-sep"></span>
 	<span class="page__meta-date"><b>
 		{%- assign date_format = site.date_format | default: "%-d. %-m. %Y" -%}
