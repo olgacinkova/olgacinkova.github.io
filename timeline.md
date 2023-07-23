@@ -1,17 +1,18 @@
 ---
 layout: home
 author_profile: true
-peramlink: /feed/
+peramlink: /timeline/
 ---
 
-<h3 class="archive__subtitle">Nedávné příspěvky</h3>
+[Kategorie](/) / **Timeline** / [Přehled](/prehled)
 
+
+<h3 class="archive__subtitle">Nedávné příspěvky</h3>
 {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
   {% assign posts = site.posts %}
 {% endif %}
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}

@@ -6,10 +6,6 @@ gallery:
     image_path: /assets/images/kralici-sukne/kralici-sukne-3.JPG
     alt: Zepředu
     title: Zepředu
-  - url: /assets/images/kralici-sukne/kralici-sukne-5.JPG
-    image_path: /assets/images/kralici-sukne/kralici-sukne-5.JPG
-    alt: Zepředu bez hlavy
-    title: Zepředu bez hlavy
   - url: /assets/images/kralici-sukne/kralici-sukne-6.JPG
     image_path: /assets/images/kralici-sukne/kralici-sukne-6.JPG
     alt: Detail
@@ -22,6 +18,10 @@ gallery:
     image_path: /assets/images/kralici-sukne/kralici-sukne-1.JPG
     alt: Zboku
     title: Zboku
+  - url: /assets/images/kralici-sukne/kralici-sukne-5.JPG
+    image_path: /assets/images/kralici-sukne/kralici-sukne-5.JPG
+    alt: Zepředu bez hlavy
+    title: Zepředu bez hlavy
 
 
 ---
