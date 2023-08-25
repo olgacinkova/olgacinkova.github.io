@@ -1,5 +1,5 @@
 {% assign document = post | default: page %}
-<p class="page__meta" style="margin-top: 0;">
+<p class="page__meta" style="margin: 0 0;">
 	{% assign date = document.date %}
 	<span class="page__meta_reading-time"><b>{{- post.category | default: document.category -}}</b></span>
 	<span class="page__meta-sep"></span>
@@ -24,17 +24,8 @@
 		</b>
 	</span>
 	<span class="page__meta-sep"></span>
-	{% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %}
-	{% assign words = document.content | strip_html | number_of_words %}
-	{% assign mins = words | divided_by: words_per_minute | plus: 1 %}
 	<span class="page__meta-readtime"><b>
-		{%- if words < words_per_minute -%}
-				Čtení na méně než 1 minutu
-			{%- elsif words == words_per_minute -%}
-				Čtení na 1 minutu
-			{%- else -%}
-				Čtení na {{ mins }} {% if mins >= 2 and mins <= 4 -%}minuty{%- else -%}minut{%- endif -%}
-			{%- endif %}
+			{% include post-content-info.html %}
 		</b>
 	</span>
 </p>
