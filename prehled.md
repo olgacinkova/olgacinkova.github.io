@@ -15,7 +15,7 @@ peramlink: /prehled
 {%- assign last_date = current_date -%}
 {%- endif -%}
 <ul>
-<li><b><a href="{{- post.url -}}">{{- post.title -}}</a></b>{% include read-time.html -%}</li>
+<li><b><a href="{{- post.url -}}">{{- post.title -}}</a></b>{% include post-info.html -%}</li>
 </ul>
 {% endfor %}
 </div>
