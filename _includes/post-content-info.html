@@ -1,0 +1,28 @@
+{% assign document = post | default: page %}
+
+{% assign word_count = document.content | strip_html | number_of_words | divided_by: 1 %}
+{% assign image_count = document.content | number_of_images | divided_by: 1 %}
+
+{% if document.gallery %}
+	{% assign image_count = image_count | plus: document.gallery | size | divided_by: 4 %}
+{% endif %}
+
+{% if word_count > 0  %}
+	{% if word_count == 1 %}
+		1 slovo
+	{% else %}
+		{{ word_count }} slov
+	{% endif %}
+{% endif %}
+{% if image_count > 0  %}
+	a 
+	{% if image_count == 1 %}
+		1 obrázek
+		{% else if image_count > 1 and image_count < 5 %}
+		{{ image_count }} obrázky
+	{% else %}
+		{{ image_count }} obrázků
+	{% endif %}
+{% endif %}
+
+
