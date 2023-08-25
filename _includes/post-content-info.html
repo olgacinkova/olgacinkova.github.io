@@ -4,7 +4,8 @@
 {% assign image_count = document.content | number_of_images | divided_by: 1 %}
 
 {% if document.gallery %}
-	{% assign image_count = image_count | plus: document.gallery | size | divided_by: 4 %}
+	{% assign gallery_size = document.gallery | size %}
+	{% assign image_count = image_count | plus: gallery_size %}
 {% endif %}
 
 {% if word_count > 0  %}
@@ -18,11 +19,10 @@
 	a 
 	{% if image_count == 1 %}
 		1 obrázek
-		{% else if image_count > 1 and image_count < 5 %}
+	{% elsif image_count < 5 %}
 		{{ image_count }} obrázky
 	{% else %}
 		{{ image_count }} obrázků
 	{% endif %}
 {% endif %}
-
 
