@@ -4,9 +4,6 @@ author_profile: true
 permalink: /
 ---
 
-
-**Kategorie** / [Timeline](/timeline) / [Přehled](/prehled)
-
 {% assign sorted_categories = site.categories | sort %}
 {% for category in sorted_categories %}
 <div id="{{ category | first | downcase }}"><h2 class="archive__subtitle">{{ category | first }}</h2></div>
@@ -15,9 +12,9 @@ permalink: /
 		{%- for post in sorted_posts -%}
 		<li>
 			<b><a href="{{- post.url -}}">{{- post.title -}}</a></b>
-			{% include read-time.html -%}
-            {% if post.excerpt -%}
-                <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+			{% include post-info.html -%}
+            {% if post.excerpt and false -%}
+                    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 80 }}</p>
             {%- endif %}
 		</li>
 		{%- endfor -%}
