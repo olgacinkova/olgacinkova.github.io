@@ -6,6 +6,6 @@ gem "jekyll", "~> 4.3.2"
 
 group :jekyll_plugins do
   gem "jektex", "~> 0.1.0"
-  gem "jekyll-paginate"
+  gem "jekyll-tidy"
 end
 
