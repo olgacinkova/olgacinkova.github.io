@@ -29,18 +29,18 @@ links:
       icon: "assets/graphics/icons/rabbit-instagram.svg"
       url: "https://www.instagram.com/kreslimnejenkraliky/"
     - label: "Atom feed"
-      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      icon: "assets/graphics/icons/rabbit-atomfeed.svg"
       url: "/feed.xml"
   - group: "Odkazy"
     links:
     - label: "BlackBlog"
-      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      icon: "assets/graphics/icons/rabbit-blackblog.svg"
       url: "https://blackblog.cz/"
     - label: "Lyricall"
-      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      icon: "assets/graphics/icons/rabbit-lyricall.svg"
       url: "https://lyricall.cz/"
     - label: "Meziklasí"
-      icon: "assets/graphics/icons/rabbit-instagram.svg"
+      icon: "assets/graphics/icons/rabbit-meziklasi.svg"
       url: "https://www.meziklasi.cz/"
 
 
