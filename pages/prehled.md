@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: true
-peramlink: /prehled
+peramlink: /prehled/
 ---
 
 [Kategorie](/) / [Timeline](/timeline) / **Přehled**
