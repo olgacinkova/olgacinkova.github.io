@@ -193,6 +193,9 @@
   font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
+  h3 {
+    margin-bottom: 0.7em;
+  }
 
   li:last-child {
     a {
