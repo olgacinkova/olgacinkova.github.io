@@ -5,6 +5,7 @@
   display: inline-block
 
 .rabbit-sidebar
+  display: none
   max-width: 80%
   height: auto
 
@@ -29,4 +30,10 @@
   max-height: 12em
   width: auto
   float: right
+
+@include breakpoint($large)
+  .rabbit-sidebar
+    display: block
+
+
 
