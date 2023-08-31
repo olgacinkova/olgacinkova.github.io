@@ -1,10 +1,8 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
 	<div class="sidebar sticky">
-		<div class="h-card">
-			<div class="author__urls-wrapper">
 				{% for group in site.links %}
 					<h3>{{- group.group -}}</h3>
-					<ul class="author__urls social-icons">
+					<ul class="social-icons">
 						{% for link in group.links %}
 							<li>
 								<a href="{{- link.url -}}">
@@ -16,7 +14,5 @@
 					</ul>
 				{% endfor %}
 				<img src="/assets/graphics/rabbits/rabbit-deco-pink.svg" class="rabbit-sidebar">
-			</div>
-		</div>
 	</div>
 {% endif %}
