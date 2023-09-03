@@ -13,16 +13,18 @@
   display: flex
   justify-content: space-evenly
   flex-direction: row
-  flex-wrap: nowrap
+  flex-wrap: wrap
   align-items: center
-  flex-wrap: nowrap
   width: 80%
   margin: 0 auto
+  overflow: hidden
+  max-height: 3.01em
 
   img
     display: inline-block
     max-height: 3em
     width: auto
+    min-width: 1em
     margin: 0 auto
 
 
@@ -31,9 +33,9 @@
   width: auto
   float: right
 
+
 @include breakpoint($large)
+
   .rabbit-sidebar
     display: block
-
-
 
