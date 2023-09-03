@@ -19,3 +19,9 @@ Trochu programuju.
 
 ## O mém blogu
 
+```
+(\(\
+(-.-)
+o_(")(")
+```
+
