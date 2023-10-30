@@ -15,14 +15,23 @@
   //   -webkit-transform: translate3d(0, 0, 0);
   //   transform: translate3d(0, 0, 0);
   // }
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 
 
   @include breakpoint($large) {
+	display: block;
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+	
+	.link-group {
+		width: 100%;
+	}
 
     &:hover {
       opacity: 1;
@@ -82,6 +91,12 @@
       height: 20px;
     }
   }
+}
+
+
+.link-group {
+	display: block;
+	width: 30%;
 }
 
 .sidebar__right {
