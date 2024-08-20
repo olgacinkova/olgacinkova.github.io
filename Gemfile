@@ -2,7 +2,7 @@ source "https://rubygems.org"
 #ruby RUBY_VERSION
 
 gem "webrick", "~> 1.7"
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 4.3.3"
 gem "json"
 
 group :jekyll_plugins do
