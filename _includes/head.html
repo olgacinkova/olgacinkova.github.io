@@ -1,6 +1,7 @@
 <head>
 	<meta charset="utf-8">
-	<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{%- if page.title -%}{{- page.title | escape }} | {% endif -%}{{- site.title | escape -}}</title>
+	<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
