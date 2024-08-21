@@ -7,7 +7,6 @@
    ========================================================================== */
 
 .sidebar {
-  @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
   //   position: relative;
@@ -20,6 +19,7 @@
   flex-direction: row;
   justify-content: space-around;
 
+  @include clearfix();
 
   @include breakpoint($large) {
 	display: block;
@@ -112,11 +112,11 @@
     z-index: 10;
 
     &.sticky {
-      @include clearfix();
       position: -webkit-sticky;
       position: sticky;
       top: 2em;
       float: right;
+      @include clearfix();
 
       .toc {
         .toc__menu {
