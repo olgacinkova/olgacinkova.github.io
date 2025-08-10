@@ -3,9 +3,9 @@
 
 # Site Settings
 locale          : "en-US"
-title           : "Olgasmus"
+title           : "olga"
 title_separator : "-"
-subtitle        : "O králících a lidech"
+subtitle        : ""
 name            : "Your Name"
 description     : "An amazing website."
 url             : "https://olgacinkova.github.io"
